@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Zap, Home, Briefcase, FolderKanban, Users, Phone } from "lucide-react";
+import { Zap, Home, Briefcase, FolderKanban, Users, Phone, TrendingUp } from "lucide-react";
 import { NavBar } from "@/components/ui/tubelight-navbar";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 
@@ -10,6 +10,7 @@ export function Header() {
     { name: "Home", url: "/", icon: Home },
     { name: "Services", url: "/services", icon: Briefcase },
     { name: "Cases", url: "/cases", icon: FolderKanban },
+    { name: "Landing", url: "/leadgen", icon: TrendingUp },
     { name: "About", url: "/about", icon: Users },
     { name: "Contact", url: "/contact", icon: Phone },
   ];
