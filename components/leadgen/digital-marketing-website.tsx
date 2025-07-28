@@ -639,7 +639,7 @@ function ContactSection() {
                 </div>
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-muted-foreground">hello@leadgenpro.com</p>
+                  <p className="text-muted-foreground">nikbubis.adv@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -673,7 +673,7 @@ function ContactSection() {
               </div>
               <div className="space-y-2">
                 <Label htmlFor="email">Email</Label>
-                <Input id="email" type="email" placeholder="john@example.com" />
+                <Input id="email" type="email" placeholder="nikbubis.adv@gmail.com" />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="company">Company</Label>

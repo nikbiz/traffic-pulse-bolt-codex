@@ -24,7 +24,7 @@ export function Footer() {
               <a href="#" className="text-slate-400 hover:text-sky-400 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="mailto:hello@trafficpulse.com" className="text-slate-400 hover:text-sky-400 transition-colors">
+              <a href="mailto:nikbubis.adv@gmail.com" className="text-slate-400 hover:text-sky-400 transition-colors">
                 <Mail className="h-5 w-5" />
               </a>
             </div>
@@ -55,7 +55,7 @@ export function Footer() {
           <div>
             <h3 className="font-semibold mb-4">Get in Touch</h3>
             <div className="space-y-2 text-sm text-slate-400">
-              <p>hello@trafficpulse.com</p>
+              <p>nikbubis.adv@gmail.com</p>
               <p>+1 (555) 123-4567</p>
               <p>San Francisco, CA</p>
             </div>
