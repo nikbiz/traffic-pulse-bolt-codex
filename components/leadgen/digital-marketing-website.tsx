@@ -309,7 +309,7 @@ function Header() {
                 <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
                   <TrendingUp className="h-5 w-5 text-primary-foreground" />
                 </div>
-                <span className="text-xl font-bold">LeadGen Pro</span>
+                <span className="text-xl font-bold">TrafficPulse</span>
               </a>
 
               <button
@@ -406,19 +406,19 @@ function HeroSection() {
               }}
             >
               <h1 className="mt-8 max-w-4xl text-balance text-5xl font-medium md:text-6xl lg:mt-16">
-                Generate More Leads for Your Small Business
+                Drive Growth with Data-Driven Marketing
               </h1>
               <p className="mt-8 max-w-2xl text-pretty text-lg text-muted-foreground">
-                Transform your digital marketing with our proven lead generation strategies. Get more qualified leads, increase conversions, and grow your business faster than ever before.
+                We scale businesses through strategic paid traffic, intelligent automation, and transparent analytics that deliver measurable results.
               </p>
               <div className="mt-12 flex items-center gap-4 flex-wrap">
                 <div className="bg-foreground/10 rounded-[14px] border p-0.5">
                   <Button size="lg" className="rounded-xl px-8 text-base">
-                    <span className="text-nowrap">Start Free Trial</span>
+                    <span className="text-nowrap">Get Your Free Audit</span>
                   </Button>
                 </div>
                 <Button size="lg" variant="ghost" className="h-[42px] rounded-xl px-8 text-base">
-                  <span className="text-nowrap">Watch Demo</span>
+                  <span className="text-nowrap">View Case Studies</span>
                 </Button>
               </div>
             </AnimatedGroup>
@@ -531,7 +531,7 @@ function FeaturesSection() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold sm:text-4xl mb-4">
-            Everything You Need to Generate More Leads
+            Everything You Need to Accelerate Growth
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Our comprehensive platform provides all the tools and strategies you need to attract, convert, and retain more customers.
@@ -618,7 +618,7 @@ function ContactSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <h2 className="text-3xl font-bold sm:text-4xl mb-6">
-              Ready to Generate More Leads?
+              Ready to Drive More Growth?
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
               Get in touch with our team to discuss how we can help grow your business with proven lead generation strategies.
@@ -630,7 +630,7 @@ function ContactSection() {
                 </div>
                 <div>
                   <p className="font-medium">Phone</p>
-                  <p className="text-muted-foreground">(555) 123-4567</p>
+                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -648,7 +648,7 @@ function ContactSection() {
                 </div>
                 <div>
                   <p className="font-medium">Office</p>
-                  <p className="text-muted-foreground">123 Business Ave, Suite 100<br />New York, NY 10001</p>
+                  <p className="text-muted-foreground">San Francisco, CA</p>
                 </div>
               </div>
             </div>
@@ -715,10 +715,10 @@ function Footer() {
               <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
                 <TrendingUp className="h-5 w-5 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold">LeadGen Pro</span>
+              <span className="text-xl font-bold">TrafficPulse</span>
             </div>
             <p className="mb-6 text-muted-foreground">
-              Helping small businesses generate more leads and grow faster with proven digital marketing strategies.
+              Helping businesses drive growth with data-driven marketing strategies.
             </p>
             <form className="relative">
               <Input
@@ -848,7 +848,7 @@ function Footer() {
         </div>
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t pt-8 text-center md:flex-row">
           <p className="text-sm text-muted-foreground">
-            © 2024 LeadGen Pro. All rights reserved.
+            © 2024 TrafficPulse. All rights reserved.
           </p>
           <nav className="flex gap-4 text-sm">
             <a href="#" className="transition-colors hover:text-primary">
@@ -875,7 +875,7 @@ function DigitalMarketingWebsite() {
         handle: "@sarahbiz",
         avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face"
       },
-      text: "LeadGen Pro increased our qualified leads by 300% in just 3 months. The ROI has been incredible for our small business."
+      text: "TrafficPulse increased our qualified leads by 300% in just 3 months. The ROI has been incredible for our small business."
     },
     {
       author: {
