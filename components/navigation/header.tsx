@@ -26,7 +26,7 @@ export function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-r from-amber-600 to-amber-500">
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-r from-sky-600 to-sky-500">
               <Zap className="h-4 w-4 text-white" />
             </div>
             <span className="text-xl font-bold">TrafficPulse</span>
@@ -39,9 +39,9 @@ export function Header() {
                 key={item.name}
                 href={item.href}
                 className={cn(
-                  "text-sm font-medium transition-colors hover:text-amber-600",
+                  "text-sm font-medium transition-colors hover:text-sky-600",
                   pathname === item.href
-                    ? "text-amber-600"
+                    ? "text-sky-600"
                     : "text-slate-600 dark:text-slate-300"
                 )}
               >
@@ -53,7 +53,7 @@ export function Header() {
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center space-x-4">
             <ThemeToggle />
-            <Button asChild className="bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-700 hover:to-amber-600">
+            <Button asChild className="bg-gradient-to-r from-sky-600 to-sky-500 hover:from-sky-700 hover:to-sky-600">
               <Link href="/contact">Get Free Audit</Link>
             </Button>
           </div>
@@ -84,9 +84,9 @@ export function Header() {
                   key={item.name}
                   href={item.href}
                   className={cn(
-                    "block px-3 py-2 text-base font-medium transition-colors hover:text-amber-600",
+                    "block px-3 py-2 text-base font-medium transition-colors hover:text-sky-600",
                     pathname === item.href
-                      ? "text-amber-600"
+                      ? "text-sky-600"
                       : "text-slate-600 dark:text-slate-300"
                   )}
                   onClick={() => setMobileMenuOpen(false)}
@@ -95,7 +95,7 @@ export function Header() {
                 </Link>
               ))}
               <div className="px-3 py-2">
-                <Button asChild className="w-full bg-gradient-to-r from-amber-600 to-amber-500">
+                <Button asChild className="w-full bg-gradient-to-r from-sky-600 to-sky-500">
                   <Link href="/contact">Get Free Audit</Link>
                 </Button>
               </div>

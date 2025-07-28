@@ -11,7 +11,7 @@ export function Hero() {
             <div className="space-y-4">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
                 Drive Growth with{' '}
-                <span className="bg-gradient-to-r from-amber-600 to-amber-500 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-sky-600 to-sky-500 bg-clip-text text-transparent">
                   Data-Driven
                 </span>{' '}
                 Marketing
@@ -26,7 +26,7 @@ export function Hero() {
               <Button 
                 asChild 
                 size="lg" 
-                className="bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-700 hover:to-amber-600"
+                className="bg-gradient-to-r from-sky-600 to-sky-500 hover:from-sky-700 hover:to-sky-600"
               >
                 <Link href="/contact" className="flex items-center">
                   Get Your Free Audit
@@ -41,21 +41,21 @@ export function Hero() {
             <div className="grid grid-cols-3 gap-6 pt-8">
               <div className="text-center">
                 <div className="flex justify-center mb-2">
-                  <TrendingUp className="h-6 w-6 text-amber-500" />
+                  <TrendingUp className="h-6 w-6 text-sky-500" />
                 </div>
                 <div className="text-2xl font-bold text-slate-900 dark:text-white">240%</div>
                 <div className="text-sm text-slate-600 dark:text-slate-400">Avg Revenue Growth</div>
               </div>
               <div className="text-center">
                 <div className="flex justify-center mb-2">
-                  <Target className="h-6 w-6 text-amber-500" />
+                  <Target className="h-6 w-6 text-sky-500" />
                 </div>
                 <div className="text-2xl font-bold text-slate-900 dark:text-white">4.2x</div>
                 <div className="text-sm text-slate-600 dark:text-slate-400">Average ROAS</div>
               </div>
               <div className="text-center">
                 <div className="flex justify-center mb-2">
-                  <BarChart3 className="h-6 w-6 text-amber-500" />
+                  <BarChart3 className="h-6 w-6 text-sky-500" />
                 </div>
                 <div className="text-2xl font-bold text-slate-900 dark:text-white">50+</div>
                 <div className="text-sm text-slate-600 dark:text-slate-400">Clients Scaled</div>
@@ -70,7 +70,7 @@ export function Hero() {
                 alt="Marketing Dashboard"
                 className="w-full h-96 object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-tr from-amber-600/20 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-tr from-sky-600/20 to-transparent"></div>
             </div>
             
             {/* Floating cards */}
@@ -82,7 +82,7 @@ export function Hero() {
             
             <div className="absolute -top-6 -right-6 bg-white dark:bg-slate-800 rounded-lg shadow-lg p-4">
               <div className="text-sm font-medium text-slate-900 dark:text-white">Live Conversions</div>
-              <div className="text-2xl font-bold text-amber-600">324</div>
+              <div className="text-2xl font-bold text-sky-600">324</div>
               <div className="text-xs text-slate-500">This month</div>
             </div>
           </div>

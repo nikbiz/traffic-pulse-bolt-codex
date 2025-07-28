@@ -18,7 +18,7 @@ export function PartnerBadges() {
         {partners.map((partner) => (
           <div key={partner.name} className="text-center">
             <div className="bg-white dark:bg-slate-700 rounded-lg p-4 mb-2 shadow-sm">
-              <div className="w-12 h-12 bg-gradient-to-r from-amber-600 to-amber-500 rounded-full mx-auto mb-2"></div>
+              <div className="w-12 h-12 bg-gradient-to-r from-sky-600 to-sky-500 rounded-full mx-auto mb-2"></div>
             </div>
             <Badge variant="secondary" className={partner.color}>
               {partner.name}

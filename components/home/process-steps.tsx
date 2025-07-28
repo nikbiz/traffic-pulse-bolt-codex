@@ -29,10 +29,10 @@ export function ProcessSteps() {
               <div key={step.id} className="relative">
                 <div className="bg-white dark:bg-slate-900 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 h-full">
                   <div className="flex items-center mb-4">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-r from-amber-600 to-amber-500 mr-4">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-r from-sky-600 to-sky-500 mr-4">
                       <Icon className="h-6 w-6 text-white" />
                     </div>
-                    <div className="text-2xl font-bold text-amber-600">
+                    <div className="text-2xl font-bold text-sky-600">
                       {step.step.toString().padStart(2, '0')}
                     </div>
                   </div>
@@ -48,7 +48,7 @@ export function ProcessSteps() {
 
                 {/* Connector line */}
                 {index < processSteps.length - 1 && (
-                  <div className="hidden lg:block absolute top-1/2 -right-4 w-8 h-0.5 bg-gradient-to-r from-amber-600 to-amber-500 transform -translate-y-1/2"></div>
+                  <div className="hidden lg:block absolute top-1/2 -right-4 w-8 h-0.5 bg-gradient-to-r from-sky-600 to-sky-500 transform -translate-y-1/2"></div>
                 )}
               </div>
             );

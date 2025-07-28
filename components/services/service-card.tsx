@@ -22,7 +22,7 @@ export function ServiceCard({ service }: ServiceCardProps) {
     <Card className="h-full hover:shadow-lg transition-all duration-300 group">
       <CardHeader>
         <div className="flex items-center mb-4">
-          <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-r from-amber-600 to-amber-500 group-hover:from-amber-700 group-hover:to-amber-600 transition-all duration-300">
+          <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-r from-sky-600 to-sky-500 group-hover:from-sky-700 group-hover:to-sky-600 transition-all duration-300">
             <Icon className="h-6 w-6 text-white" />
           </div>
         </div>
@@ -36,13 +36,13 @@ export function ServiceCard({ service }: ServiceCardProps) {
         <ul className="space-y-2 mb-6 flex-1">
           {service.features.map((feature, index) => (
             <li key={index} className="flex items-start">
-              <div className="flex-shrink-0 w-2 h-2 bg-amber-500 rounded-full mt-2 mr-3"></div>
+              <div className="flex-shrink-0 w-2 h-2 bg-sky-500 rounded-full mt-2 mr-3"></div>
               <span className="text-sm text-slate-600 dark:text-slate-400">{feature}</span>
             </li>
           ))}
         </ul>
         
-        <Button asChild variant="outline" className="group-hover:bg-amber-50 group-hover:border-amber-200 transition-colors">
+        <Button asChild variant="outline" className="group-hover:bg-sky-50 group-hover:border-sky-200 transition-colors">
           <Link href={service.href} className="flex items-center">
             Learn More
             <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />

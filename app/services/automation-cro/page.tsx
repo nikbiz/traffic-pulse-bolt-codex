@@ -45,7 +45,7 @@ export default function AutomationCRO() {
       {/* Hero Section */}
       <div className="text-center mb-16">
         <div className="flex justify-center mb-6">
-          <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-r from-amber-600 to-amber-500">
+          <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-r from-sky-600 to-sky-500">
             <Zap className="h-8 w-8 text-white" />
           </div>
         </div>
@@ -57,7 +57,7 @@ export default function AutomationCRO() {
           Our systems work 24/7 to optimize your marketing performance and eliminate manual tasks.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button asChild size="lg" className="bg-gradient-to-r from-amber-600 to-amber-500">
+          <Button asChild size="lg" className="bg-gradient-to-r from-sky-600 to-sky-500">
             <Link href="/contact">Start Automation</Link>
           </Button>
           <Button asChild variant="outline" size="lg">
@@ -78,7 +78,7 @@ export default function AutomationCRO() {
               <Card key={index} className="hover:shadow-lg transition-all duration-300">
                 <CardHeader>
                   <div className="flex items-center mb-4">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-r from-amber-600 to-amber-500 mr-3">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-r from-sky-600 to-sky-500 mr-3">
                       <Icon className="h-5 w-5 text-white" />
                     </div>
                     <CardTitle className="text-xl">{service.name}</CardTitle>
@@ -129,7 +129,7 @@ export default function AutomationCRO() {
             { step: '04', title: 'Optimize', description: 'Monitor performance and continuously improve' }
           ].map((item, index) => (
             <div key={index} className="text-center">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-r from-amber-600 to-amber-500 text-white font-bold text-lg mx-auto mb-4">
+              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-r from-sky-600 to-sky-500 text-white font-bold text-lg mx-auto mb-4">
                 {item.step}
               </div>
               <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-2">{item.title}</h3>
@@ -154,8 +154,8 @@ export default function AutomationCRO() {
               <div className="text-2xl font-bold text-green-600">95%</div>
               <div className="text-sm text-slate-600 dark:text-slate-400">Time Saved</div>
             </div>
-            <div className="bg-amber-50 dark:bg-amber-900/20 rounded-lg p-4">
-              <div className="text-2xl font-bold text-amber-600">45%</div>
+            <div className="bg-sky-50 dark:bg-sky-900/20 rounded-lg p-4">
+              <div className="text-2xl font-bold text-sky-600">45%</div>
               <div className="text-sm text-slate-600 dark:text-slate-400">Higher Conversions</div>
             </div>
           </div>
@@ -170,9 +170,9 @@ export default function AutomationCRO() {
       </div>
 
       {/* CTA */}
-      <div className="bg-gradient-to-r from-amber-600 to-amber-500 rounded-2xl p-8 text-center text-white">
+      <div className="bg-gradient-to-r from-sky-600 to-sky-500 rounded-2xl p-8 text-center text-white">
         <h2 className="text-3xl font-bold mb-4">Ready to Automate Your Success?</h2>
-        <p className="text-amber-100 mb-6 max-w-2xl mx-auto">
+        <p className="text-sky-100 mb-6 max-w-2xl mx-auto">
           Let us build custom automation workflows that save time, reduce errors, and boost your conversion rates.
         </p>
         <Button asChild size="lg" variant="secondary">

@@ -19,7 +19,7 @@ export function TeamCard({ member }: TeamCardProps) {
           />
         </div>
         <h3 className="text-xl font-semibold text-slate-900 dark:text-white">{member.name}</h3>
-        <p className="text-amber-600 font-medium">{member.role}</p>
+        <p className="text-sky-600 font-medium">{member.role}</p>
       </CardHeader>
       
       <CardContent className="space-y-4">

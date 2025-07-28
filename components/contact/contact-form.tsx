@@ -101,7 +101,7 @@ export function ContactForm() {
             type="submit" 
             size="lg" 
             disabled={isSubmitting}
-            className="w-full bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-700 hover:to-amber-600"
+            className="w-full bg-gradient-to-r from-sky-600 to-sky-500 hover:from-sky-700 hover:to-sky-600"
           >
             {isSubmitting ? 'Sending...' : 'Send Message'}
           </Button>

@@ -9,7 +9,7 @@ export function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-r from-amber-600 to-amber-500">
+              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-r from-sky-600 to-sky-500">
                 <Zap className="h-4 w-4 text-white" />
               </div>
               <span className="text-xl font-bold">TrafficPulse</span>
@@ -18,13 +18,13 @@ export function Footer() {
               Driving measurable growth through strategic digital marketing and data-driven optimization.
             </p>
             <div className="flex space-x-3">
-              <a href="#" className="text-slate-400 hover:text-amber-400 transition-colors">
+              <a href="#" className="text-slate-400 hover:text-sky-400 transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-slate-400 hover:text-amber-400 transition-colors">
+              <a href="#" className="text-slate-400 hover:text-sky-400 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="mailto:hello@trafficpulse.com" className="text-slate-400 hover:text-amber-400 transition-colors">
+              <a href="mailto:hello@trafficpulse.com" className="text-slate-400 hover:text-sky-400 transition-colors">
                 <Mail className="h-5 w-5" />
               </a>
             </div>

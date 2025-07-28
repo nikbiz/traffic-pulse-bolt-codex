@@ -29,7 +29,7 @@ export function StickyButton() {
     >
       <Button
         asChild
-        className="bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-700 hover:to-amber-600 shadow-lg"
+        className="bg-gradient-to-r from-sky-600 to-sky-500 hover:from-sky-700 hover:to-sky-600 shadow-lg"
       >
         <Link href="/contact" className="flex items-center space-x-2">
           <span>Get Free Audit</span>
