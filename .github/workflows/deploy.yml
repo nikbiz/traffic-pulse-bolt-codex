@@ -1,0 +1,40 @@
+name: Deploy to GitHub Pages from Codex branch
+
+on:
+  push:
+    branches: [codex/integrate-react-component-and-update-homepage]
+  pull_request:
+    branches: [codex/integrate-react-component-and-update-homepage]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build and copy files
+        run: |
+          npm run build
+          mkdir -p out
+          cp -r .next/static out/_next/ || true
+          cp .next/BUILD_ID out/ || true
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
+          publish_branch: gh-pages
