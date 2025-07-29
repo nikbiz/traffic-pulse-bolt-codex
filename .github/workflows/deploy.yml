@@ -1,0 +1,20 @@
+name: Deploy
+
+on:
+  push:
+    branches: [codex/integrate-react-component-and-update-homepage]
+  pull_request:
+    branches: [codex/integrate-react-component-and-update-homepage]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build
