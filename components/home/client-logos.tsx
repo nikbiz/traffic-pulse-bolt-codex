@@ -28,7 +28,7 @@ export function ClientLogos() {
         {/* Case Study Snippets */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
           <div className="bg-slate-50 dark:bg-slate-800 rounded-xl p-6">
-            <div className="text-3xl font-bold text-amber-600 mb-2">240%</div>
+            <div className="text-3xl font-bold text-sky-600 mb-2">240%</div>
             <div className="text-slate-900 dark:text-white font-semibold mb-1">Revenue Increase</div>
             <div className="text-sm text-slate-600 dark:text-slate-400">
               E-commerce client achieved 240% revenue growth through optimized Google Ads campaigns.

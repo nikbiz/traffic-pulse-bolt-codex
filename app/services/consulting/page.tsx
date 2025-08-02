@@ -47,7 +47,7 @@ export default function Consulting() {
       {/* Hero Section */}
       <div className="text-center mb-16">
         <div className="flex justify-center mb-6">
-          <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-r from-amber-600 to-amber-500">
+          <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-r from-sky-600 to-sky-500">
             <Users className="h-8 w-8 text-white" />
           </div>
         </div>
@@ -59,7 +59,7 @@ export default function Consulting() {
           helps you make smarter decisions and achieve better results faster.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button asChild size="lg" className="bg-gradient-to-r from-amber-600 to-amber-500">
+          <Button asChild size="lg" className="bg-gradient-to-r from-sky-600 to-sky-500">
             <Link href="/contact">Get Free Consultation</Link>
           </Button>
           <Button asChild variant="outline" size="lg">
@@ -80,7 +80,7 @@ export default function Consulting() {
               <Card key={index} className="hover:shadow-lg transition-all duration-300 h-full">
                 <CardHeader>
                   <div className="flex items-center mb-4">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-r from-amber-600 to-amber-500 mr-3">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-r from-sky-600 to-sky-500 mr-3">
                       <Icon className="h-5 w-5 text-white" />
                     </div>
                   </div>
@@ -101,9 +101,9 @@ export default function Consulting() {
                       <div className="text-xs font-medium text-slate-500 dark:text-slate-400 uppercase tracking-wide">Duration</div>
                       <div className="text-sm font-semibold text-slate-900 dark:text-white">{service.duration}</div>
                     </div>
-                    <div className="bg-amber-50 dark:bg-amber-900/20 rounded-lg p-3">
-                      <div className="text-xs font-medium text-amber-600 dark:text-amber-400 uppercase tracking-wide">Deliverable</div>
-                      <div className="text-sm font-semibold text-amber-800 dark:text-amber-200">{service.deliverable}</div>
+                    <div className="bg-sky-50 dark:bg-sky-900/20 rounded-lg p-3">
+                      <div className="text-xs font-medium text-sky-600 dark:text-sky-400 uppercase tracking-wide">Deliverable</div>
+                      <div className="text-sm font-semibold text-sky-800 dark:text-sky-200">{service.deliverable}</div>
                     </div>
                   </div>
                 </CardContent>
@@ -144,8 +144,8 @@ export default function Consulting() {
                   </div>
                 ))}
               </div>
-              <div className="mt-6 p-4 bg-amber-50 dark:bg-amber-900/20 rounded-lg">
-                <div className="text-sm font-semibold text-amber-800 dark:text-amber-200">
+              <div className="mt-6 p-4 bg-sky-50 dark:bg-sky-900/20 rounded-lg">
+                <div className="text-sm font-semibold text-sky-800 dark:text-sky-200">
                   Average value: $2,500 - Yours FREE
                 </div>
               </div>
@@ -205,7 +205,7 @@ export default function Consulting() {
             { step: '04', title: 'Implementation', description: 'Guiding you through execution and optimization' }
           ].map((item, index) => (
             <div key={index} className="text-center">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-r from-amber-600 to-amber-500 text-white font-bold text-lg mx-auto mb-4">
+              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-r from-sky-600 to-sky-500 text-white font-bold text-lg mx-auto mb-4">
                 {item.step}
               </div>
               <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-2">{item.title}</h3>
@@ -216,9 +216,9 @@ export default function Consulting() {
       </div>
 
       {/* CTA */}
-      <div className="bg-gradient-to-r from-amber-600 to-amber-500 rounded-2xl p-8 text-center text-white">
+      <div className="bg-gradient-to-r from-sky-600 to-sky-500 rounded-2xl p-8 text-center text-white">
         <h2 className="text-3xl font-bold mb-4">Ready to Accelerate Your Growth?</h2>
-        <p className="text-amber-100 mb-6 max-w-2xl mx-auto">
+        <p className="text-sky-100 mb-6 max-w-2xl mx-auto">
           Book a free consultation to discuss your marketing challenges and discover how 
           our expert guidance can help you achieve your business goals faster.
         </p>

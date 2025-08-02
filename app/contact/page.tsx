@@ -60,12 +60,12 @@ export default function Contact() {
                 const Icon = info.icon;
                 return (
                   <div key={index} className="flex items-start">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-r from-amber-600 to-amber-500 mr-4">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-r from-sky-600 to-sky-500 mr-4">
                       <Icon className="h-5 w-5 text-white" />
                     </div>
                     <div>
                       <div className="font-semibold text-slate-900 dark:text-white">{info.title}</div>
-                      <div className="text-amber-600 font-medium">{info.details}</div>
+                      <div className="text-sky-600 font-medium">{info.details}</div>
                       <div className="text-sm text-slate-600 dark:text-slate-400">{info.description}</div>
                     </div>
                   </div>
@@ -80,7 +80,7 @@ export default function Contact() {
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="flex items-start">
-                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-amber-100 dark:bg-amber-900 text-amber-600 text-sm font-bold mr-3 mt-1">
+                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-sky-100 dark:bg-sky-900 text-sky-600 text-sm font-bold mr-3 mt-1">
                   1
                 </div>
                 <div>
@@ -89,7 +89,7 @@ export default function Contact() {
                 </div>
               </div>
               <div className="flex items-start">
-                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-amber-100 dark:bg-amber-900 text-amber-600 text-sm font-bold mr-3 mt-1">
+                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-sky-100 dark:bg-sky-900 text-sky-600 text-sm font-bold mr-3 mt-1">
                   2
                 </div>
                 <div>
@@ -98,7 +98,7 @@ export default function Contact() {
                 </div>
               </div>
               <div className="flex items-start">
-                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-amber-100 dark:bg-amber-900 text-amber-600 text-sm font-bold mr-3 mt-1">
+                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-sky-100 dark:bg-sky-900 text-sky-600 text-sm font-bold mr-3 mt-1">
                   3
                 </div>
                 <div>

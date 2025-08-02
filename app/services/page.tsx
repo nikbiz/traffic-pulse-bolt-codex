@@ -29,7 +29,7 @@ export default function Services() {
         </p>
         <a
           href="/contact"
-          className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-amber-600 to-amber-500 text-white font-medium rounded-lg hover:from-amber-700 hover:to-amber-600 transition-all duration-300"
+          className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-sky-600 to-sky-500 text-white font-medium rounded-lg hover:from-sky-700 hover:to-sky-600 transition-all duration-300"
         >
           Get Your Free Consultation
         </a>

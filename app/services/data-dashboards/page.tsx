@@ -42,7 +42,7 @@ export default function DataDashboards() {
       {/* Hero Section */}
       <div className="text-center mb-16">
         <div className="flex justify-center mb-6">
-          <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-r from-amber-600 to-amber-500">
+          <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-r from-sky-600 to-sky-500">
             <BarChart3 className="h-8 w-8 text-white" />
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function DataDashboards() {
           Make data-driven decisions that accelerate your business growth.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button asChild size="lg" className="bg-gradient-to-r from-amber-600 to-amber-500">
+          <Button asChild size="lg" className="bg-gradient-to-r from-sky-600 to-sky-500">
             <Link href="/contact">Get Custom Dashboard</Link>
           </Button>
           <Button asChild variant="outline" size="lg">
@@ -75,7 +75,7 @@ export default function DataDashboards() {
               <Card key={index} className="hover:shadow-lg transition-all duration-300 h-full">
                 <CardHeader>
                   <div className="flex items-center mb-4">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-r from-amber-600 to-amber-500 mr-3">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-r from-sky-600 to-sky-500 mr-3">
                       <Icon className="h-5 w-5 text-white" />
                     </div>
                   </div>
@@ -91,8 +91,8 @@ export default function DataDashboards() {
                       </li>
                     ))}
                   </ul>
-                  <div className="bg-amber-50 dark:bg-amber-900/20 rounded-lg p-3">
-                    <div className="text-sm font-semibold text-amber-800 dark:text-amber-200">
+                  <div className="bg-sky-50 dark:bg-sky-900/20 rounded-lg p-3">
+                    <div className="text-sm font-semibold text-sky-800 dark:text-sky-200">
                       Example: {dashboard.example}
                     </div>
                   </div>
@@ -111,7 +111,7 @@ export default function DataDashboards() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {metrics.map((metric, index) => (
             <div key={index} className="flex items-center bg-white dark:bg-slate-700 rounded-lg p-4">
-              <BarChart3 className="h-6 w-6 text-amber-500 mr-3 flex-shrink-0" />
+              <BarChart3 className="h-6 w-6 text-sky-500 mr-3 flex-shrink-0" />
               <span className="font-medium text-slate-900 dark:text-white">{metric}</span>
             </div>
           ))}
@@ -135,8 +135,8 @@ export default function DataDashboards() {
               <div className="text-sm text-slate-600 dark:text-slate-400">ROAS</div>
               <div className="text-xs text-green-600">+165% vs last month</div>
             </div>
-            <div className="bg-amber-50 dark:bg-amber-900/20 rounded-lg p-4 text-center">
-              <div className="text-2xl font-bold text-amber-600">1,247</div>
+            <div className="bg-sky-50 dark:bg-sky-900/20 rounded-lg p-4 text-center">
+              <div className="text-2xl font-bold text-sky-600">1,247</div>
               <div className="text-sm text-slate-600 dark:text-slate-400">Conversions</div>
               <div className="text-xs text-green-600">+85% vs last month</div>
             </div>
@@ -197,9 +197,9 @@ export default function DataDashboards() {
       </div>
 
       {/* CTA */}
-      <div className="bg-gradient-to-r from-amber-600 to-amber-500 rounded-2xl p-8 text-center text-white">
+      <div className="bg-gradient-to-r from-sky-600 to-sky-500 rounded-2xl p-8 text-center text-white">
         <h2 className="text-3xl font-bold mb-4">Ready for Better Data Insights?</h2>
-        <p className="text-amber-100 mb-6 max-w-2xl mx-auto">
+        <p className="text-sky-100 mb-6 max-w-2xl mx-auto">
           Transform your data into a competitive advantage with custom dashboards that provide 
           the insights you need to grow your business.
         </p>

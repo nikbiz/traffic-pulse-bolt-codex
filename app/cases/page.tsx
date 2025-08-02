@@ -73,7 +73,7 @@ export default function Cases() {
           <div className="text-slate-400 mb-4">No case studies match your current filters.</div>
           <button
             onClick={() => setFilteredCases(caseStudies)}
-            className="text-amber-600 hover:text-amber-700 font-medium"
+            className="text-sky-600 hover:text-sky-700 font-medium"
           >
             Clear filters to see all case studies
           </button>
@@ -81,15 +81,15 @@ export default function Cases() {
       )}
 
       {/* CTA */}
-      <div className="bg-gradient-to-r from-amber-600 to-amber-500 rounded-2xl p-8 text-center text-white">
+      <div className="bg-gradient-to-r from-sky-600 to-sky-500 rounded-2xl p-8 text-center text-white">
         <h2 className="text-3xl font-bold mb-4">Ready for Similar Results?</h2>
-        <p className="text-amber-100 mb-6 max-w-2xl mx-auto">
+        <p className="text-sky-100 mb-6 max-w-2xl mx-auto">
           These are just a few examples of what's possible. Let's discuss how we can 
           create a success story for your business too.
         </p>
         <a
           href="/contact"
-          className="inline-flex items-center px-8 py-3 bg-white text-amber-600 font-semibold rounded-lg hover:bg-slate-50 transition-colors"
+          className="inline-flex items-center px-8 py-3 bg-white text-sky-600 font-semibold rounded-lg hover:bg-slate-50 transition-colors"
         >
           Get Your Free Audit
         </a>

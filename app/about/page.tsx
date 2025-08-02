@@ -73,7 +73,7 @@ export default function About() {
             const Icon = value.icon;
             return (
               <div key={index} className="text-center">
-                <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-r from-amber-600 to-amber-500 mx-auto mb-4">
+                <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-r from-sky-600 to-sky-500 mx-auto mb-4">
                   <Icon className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-slate-900 dark:text-white mb-3">
@@ -129,9 +129,9 @@ export default function About() {
       </div>
 
       {/* CTA */}
-      <div className="bg-gradient-to-r from-amber-600 to-amber-500 rounded-2xl p-8 text-center text-white">
+      <div className="bg-gradient-to-r from-sky-600 to-sky-500 rounded-2xl p-8 text-center text-white">
         <h2 className="text-3xl font-bold mb-4">Ready to Work Together?</h2>
-        <p className="text-amber-100 mb-6 max-w-2xl mx-auto">
+        <p className="text-sky-100 mb-6 max-w-2xl mx-auto">
           Join the growing list of businesses that trust TrafficPulse to drive their digital marketing success.
         </p>
         <Button asChild size="lg" variant="secondary">

@@ -45,7 +45,7 @@ export default function PaidTraffic() {
       {/* Hero Section */}
       <div className="text-center mb-16">
         <div className="flex justify-center mb-6">
-          <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-r from-amber-600 to-amber-500">
+          <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-r from-sky-600 to-sky-500">
             <Target className="h-8 w-8 text-white" />
           </div>
         </div>
@@ -57,7 +57,7 @@ export default function PaidTraffic() {
           Our data-driven approach delivers consistent, profitable growth.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button asChild size="lg" className="bg-gradient-to-r from-amber-600 to-amber-500">
+          <Button asChild size="lg" className="bg-gradient-to-r from-sky-600 to-sky-500">
             <Link href="/contact">Get Free Audit</Link>
           </Button>
           <Button asChild variant="outline" size="lg">
@@ -87,8 +87,8 @@ export default function PaidTraffic() {
                     </li>
                   ))}
                 </ul>
-                <div className="bg-amber-50 dark:bg-amber-900/20 rounded-lg p-3">
-                  <div className="text-sm font-semibold text-amber-800 dark:text-amber-200">
+                <div className="bg-sky-50 dark:bg-sky-900/20 rounded-lg p-3">
+                  <div className="text-sm font-semibold text-sky-800 dark:text-sky-200">
                     {platform.results}
                   </div>
                 </div>
@@ -103,21 +103,21 @@ export default function PaidTraffic() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div>
             <div className="flex justify-center mb-2">
-              <TrendingUp className="h-8 w-8 text-amber-500" />
+              <TrendingUp className="h-8 w-8 text-sky-500" />
             </div>
             <div className="text-3xl font-bold text-slate-900 dark:text-white mb-1">$50M+</div>
             <div className="text-slate-600 dark:text-slate-400">Ad Spend Managed</div>
           </div>
           <div>
             <div className="flex justify-center mb-2">
-              <Target className="h-8 w-8 text-amber-500" />
+              <Target className="h-8 w-8 text-sky-500" />
             </div>
             <div className="text-3xl font-bold text-slate-900 dark:text-white mb-1">4.2x</div>
             <div className="text-slate-600 dark:text-slate-400">Average ROAS</div>
           </div>
           <div>
             <div className="flex justify-center mb-2">
-              <Users className="h-8 w-8 text-amber-500" />
+              <Users className="h-8 w-8 text-sky-500" />
             </div>
             <div className="text-3xl font-bold text-slate-900 dark:text-white mb-1">200+</div>
             <div className="text-slate-600 dark:text-slate-400">Campaigns Launched</div>
@@ -150,9 +150,9 @@ export default function PaidTraffic() {
       </div>
 
       {/* CTA */}
-      <div className="bg-gradient-to-r from-amber-600 to-amber-500 rounded-2xl p-8 text-center text-white">
+      <div className="bg-gradient-to-r from-sky-600 to-sky-500 rounded-2xl p-8 text-center text-white">
         <h2 className="text-3xl font-bold mb-4">Ready to Scale Your Traffic?</h2>
-        <p className="text-amber-100 mb-6 max-w-2xl mx-auto">
+        <p className="text-sky-100 mb-6 max-w-2xl mx-auto">
           Get a free audit of your current advertising efforts and discover untapped growth opportunities.
         </p>
         <Button asChild size="lg" variant="secondary">
